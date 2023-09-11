@@ -13,5 +13,6 @@ UCLASS()
 class CAIMAN_API ACaimanGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
-	
+public:
+	ACaimanGameModeBase();
 };
